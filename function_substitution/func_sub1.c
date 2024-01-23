@@ -20,7 +20,7 @@ int main()
    return 0;
 }
 
-//custom code:
+//custom code (can be in different file):
 void print_test_substitute()
 {
     printf ("pre original\n");
