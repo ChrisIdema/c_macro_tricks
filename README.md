@@ -1,5 +1,5 @@
 # c_macro_tricks
-macro tricks for C/C++
+Macro tricks for C/C++.
 
 ## function substitution 
 
@@ -23,6 +23,6 @@ Three ways are used:
 - `DATE_TO_YEAR(__DATE__)`  -> int year
 - `DATE_TO_MONTH(__DATE__)` -> int month (1-12, plus 13 for month "???")
 - `DATE_TO_DAY(__DATE__)`   -> int day of month (1-31)
-- `TIME_TO_HOUR(__TIME__`)  -> int hour (0-23)
+- `TIME_TO_HOUR(__TIME__)`  -> int hour (0-23)
 - `TIME_TO_MIN(__TIME__)`   -> int min (0-59)
 - `TIME_TO_SEC(__TIME__)`   -> int sec (0-59)
