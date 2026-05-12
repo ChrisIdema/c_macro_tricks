@@ -7,7 +7,6 @@ void print_test()
 }
 
 //custom code:
-
 void print_test_substitute()
 {
     printf ("pre original\n");

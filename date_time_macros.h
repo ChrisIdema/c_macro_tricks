@@ -1,7 +1,8 @@
-// Date macros:
+// Date macros
 
 //supports all dates except "???":
 //#define DATE_TO_MONTH(d) ("bhegdlj?kcmf?i"[(d[1] + d[2])%17 - 3]- 'a')
+
 //Supports all dates including"???" (mapped to month 13):
 #define DATE_TO_MONTH(d) ("f?i?ncmheg?l?b???d?j?k"[(d[1] + d[2])%24 - 2]- 'a')
 
